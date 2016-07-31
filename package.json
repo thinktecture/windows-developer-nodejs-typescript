@@ -1,0 +1,27 @@
+{
+  "name": "windows-developer-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinktecture/windows-developer-nodejs-typescript.git"
+  },
+  "scripts": {
+    "postinstall": "typings install",
+    "start": "tsc && node build/index.js"
+  },
+  "keywords": [
+    "TypeScript",
+    "Node.js"
+  ],
+  "author": "Manuel Rauber <manuel.rauber@thinktecture.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinktecture/windows-developer-nodejs-typescript/issues"
+  },
+  "homepage": "https://github.com/thinktecture/windows-developer-nodejs-typescript#readme",
+  "devDependencies": {
+    "typescript": "1.8.10",
+    "typings": "1.3.2"
+  }
+}
