@@ -11,10 +11,10 @@ export class Product {
 }
 
 class ProductService {
-    private _products: Array<Product> = [];
+    private products: Array<Product> = [];
 
     public list(): Array<Product> {
-        return this._products;
+        return this.products;
     }
 
     public add(product: Product): void {
@@ -22,7 +22,7 @@ class ProductService {
             throw new Error('Parameter product is not set.');
         }
 
-        this._products.push(product);
+        this.products.push(product);
     }
 }
 
