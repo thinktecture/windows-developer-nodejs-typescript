@@ -8,7 +8,8 @@
   },
   "scripts": {
     "postinstall": "typings install",
-    "start": "tsc && node build/index.js"
+    "compile": "tsc",
+    "start": "npm run compile && node build/index.js"
   },
   "keywords": [
     "TypeScript",
