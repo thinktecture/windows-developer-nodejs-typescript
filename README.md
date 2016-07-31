@@ -12,7 +12,7 @@ This repository contains the code for the Windows Developer Node.js TypeScript s
 ## Usage
 
 To start the sample, use `npm start`. 
-It will automatically compile the sources and start the server. 
+It will use `tslint` for linting, then it compiles the sources and starts the server. 
 The server has two HTTP-based APIs:
  
 * `GET /products`: Lists all products. Is empty by default.
@@ -29,3 +29,10 @@ All data is stored in-memory, no other external dependencies are needed.
 
 If you are interested in working with Node.js and HTTP-based APIs, take a look at the [Windows Developer Node.js Article Series repository](https://github.com/thinktecture/windows-developer-nodejs-article-series).
 It contains more information about Node.js and working with Web APIs and databases.
+
+## Additional scripts
+
+Use the following `npm` scripts for additional features:
+
+* `npm test`: Runs the test suite
+* `npm run coverage`: Runs the test suite & generates a HTML coverage report
