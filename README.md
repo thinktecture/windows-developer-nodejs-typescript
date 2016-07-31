@@ -1,6 +1,6 @@
 # Windows Developer Node.js TypeScript Sample
 
-This repository contains the code for the Windows Developer Node.js TypeScript sample.
+This repository contains the code for the Windows Developer Node.js TypeScript article.
 
 ## Requirements
 
