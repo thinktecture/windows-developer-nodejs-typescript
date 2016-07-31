@@ -12,7 +12,7 @@ This repository contains the code for the Windows Developer Node.js TypeScript s
 ## Usage
 
 To start the sample, use `npm start`. 
-It will automatically compile the sources and starts the server. 
+It will automatically compile the sources and start the server. 
 The server has two HTTP-based APIs:
  
 * `GET /products`: Lists all products. Is empty by default.
