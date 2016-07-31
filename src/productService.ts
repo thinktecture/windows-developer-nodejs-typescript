@@ -10,7 +10,7 @@ export class Product {
     }
 }
 
-class ProductService {
+export class ProductService {
     private products: Array<Product> = [];
 
     public list(): Array<Product> {
