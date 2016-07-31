@@ -27,5 +27,5 @@ The server has two HTTP-based APIs:
    
 All data is stored in-memory, no other external dependencies are needed.
 
-If you are interested in working with Node.js and HTTP-based APIs, take a look at the [Windows Developer Node.js Article Series](https://github.com/thinktecture/windows-developer-nodejs-article-series).
+If you are interested in working with Node.js and HTTP-based APIs, take a look at the [Windows Developer Node.js Article Series repository](https://github.com/thinktecture/windows-developer-nodejs-article-series).
 It contains more information about Node.js and working with Web APIs and databases.
