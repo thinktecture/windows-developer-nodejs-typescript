@@ -12,7 +12,7 @@
     "pretest": "npm run compile",
     "test": "istanbul cover --report json _mocha -- **/*.spec.js",
     "coverage": "npm test && remap-istanbul -b . -i coverage/coverage-final.json -o coverage -t html",
-    "start": "npm run compile && npm run coverage && node build/index.js"
+    "start": "npm run compile && node build/index.js"
   },
   "keywords": [
     "TypeScript",
