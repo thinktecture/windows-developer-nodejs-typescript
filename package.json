@@ -23,5 +23,8 @@
   "devDependencies": {
     "typescript": "1.8.10",
     "typings": "1.3.2"
+  },
+  "dependencies": {
+    "restify": "4.1.1"
   }
 }
